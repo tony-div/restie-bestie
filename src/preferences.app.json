@@ -1,0 +1,17 @@
+{
+  "shortBreakInterval": {
+    "minutes": 25,
+    "hours": 0
+  },
+  "longBreakInterval": {
+    "minutes": 0,
+    "hours": 2
+  },
+  "shortBreakTime": {
+    "minutes": 5
+  },
+  "longBreakTime": {
+    "minutes": 40,
+    "hours": 0
+  }
+}

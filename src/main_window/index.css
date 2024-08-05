@@ -1,0 +1,61 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  background-color: #1f1f1f;
+  color: #e8eaed;
+  -webkit-app-region: drag;
+  user-select: none;
+}
+
+#app-root {
+  margin: auto;
+  max-width: 38rem;
+  padding: 2rem;
+}
+
+.label-with-progress {
+  display: flex;
+  padding: 0.5rem;
+}
+.progress-label {
+  /* padding: 0.13rem; */
+  height: fit-content;
+}
+.progress-label-container {
+  height: 100%;
+  flex: 1;
+  margin-right: 1rem;
+}
+.progress-container {
+  background-color: #101010;
+  height: 1.25rem;
+  width: 100%;
+  /* padding: 0px; */
+  border-radius: 0.25rem;
+  text-align: center;
+  flex: 5;
+}
+.progress-bar {
+  border-radius: 0.25rem 0rem 0rem 0.25rem;
+  background-color:cadetblue;
+  height: 100%;
+  padding: 0%;
+  /* display: inline-block; */
+  margin-top: -1.25rem;
+  /* position: absolute; */
+}
+.progress-text {
+  padding: 0.13rem;
+  height: fit-content;
+}
+.progress-text-container {
+  height: 100%;
+  font-size: 0.75em;
+  display: block;
+  /* text-align: center; */
+  box-sizing: border-box;
+  margin: auto;
+  /* background-color: red; */
+  width: 100%;
+  /* width: fit-content; */
+}
