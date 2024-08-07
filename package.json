@@ -1,7 +1,7 @@
 {
   "name": "restie-bestie",
   "productName": "restie-bestie",
-  "version": "1.0.0",
+  "version": "0.1.0-alpha",
   "description": "do not forget to take a rest.",
   "main": ".webpack/main",
   "scripts": {
