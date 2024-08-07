@@ -5,33 +5,36 @@
     <title>restie bestie</title>
   </head>
   <body>
-    ss
+    <div style="display: flex; gap: 0.25rem; padding: 0.5rem 0rem 0rem 0.5rem;">
+      <img src="icon.ico" width="20px">
+      <div style="height: 100%;">
+        Restie Bestie
+      </div>
+    </div>
     <div id="app-root">
-      <h1>💖 Hello restie!</h1>
-      <p>Welcome to your helpful bestfriend</p>
-      <div class="label-with-progress">
         <div class="progress-label-container">
           <div class="progress-label">short break</div>
         </div>
         <div class="progress-container">
+          <div class="progress-bar-container">
+            <div class="progress-bar" id="short-break-progress-bar" style="width: 100%;"></div>
+          </div>
           <div class="progress-text-container">
             <div class="progress-text" id="short-break-inner-progress-text">00:00:00</div>
           </div>
-          <div class="progress-bar" id="short-break-progress-bar" style="width: 100%;"></div>
         </div>
-      </div>
 
-      <div class="label-with-progress">
         <div class="progress-label-container">
           <div class="progress-label">long break</div>
         </div>
         <div class="progress-container">
+          <div class="progress-bar-container">
+            <div class="progress-bar" id="long-break-progress-bar" style="width: 100%;"></div>
+          </div>
           <div class="progress-text-container">
             <div class="progress-text" id="long-break-inner-progress-text">00:00:00</div>
           </div>
-          <div class="progress-bar" id="long-break-progress-bar" style="width: 100%;"></div>
         </div>
-      </div>
     </div>
   </body>
 </html>

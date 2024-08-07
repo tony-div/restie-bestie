@@ -9,7 +9,7 @@ export const plugins = [
   new CopyWebpackPlugin({
     patterns: [
       { from: 'src/preferences.app.json', to: 'preferences.app.json' },
-      { from: 'src/icon.ico', to: 'icon.ico' },
+      { from: 'assets/icon.ico', to: 'icon.ico' },
     ],
   }),
   new ForkTsCheckerWebpackPlugin({

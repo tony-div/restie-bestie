@@ -6,8 +6,10 @@ repair breaker.ts:
   when there is conflict between breaks (short break was trying to start while long break is already not finished)
   the short break timer is not started ever again since `startShortBreakInterval()` was not invoked after the long break ending
 reset the short break timer after taking the long break so it won't be annoying
+the interval throttling problem is solved by refreshing the timer when the app takes focus, but what if it is not in focus but displayed? it needs to be refreshed too. maybe make the backend responsible for updating the ui like updateTimer(-1) on the ipc 
 version 1.1:
   alarm every five minutes to set properly
   add exercise to breaks
   add counter for system time up
   add skip option
+  add pause button

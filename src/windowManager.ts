@@ -9,6 +9,7 @@ export class windowManager {
   static createMainWindow(WINDOW_WEBPACK_ENTRY: string, WINDOW_PRELOAD_WEBPACK_ENTRY: string): void {
     // Create the browser window.
     const mainWindow = new BrowserWindow({
+      backgroundColor: '#1f1f1f',
       width: 700,
       height: 398,
       icon: path.join(__dirname, 'icon.png'),
@@ -34,6 +35,7 @@ export class windowManager {
 
   static createAlarmWindow(breakType: string, WINDOW_WEBPACK_ENTRY: string, WINDOW_PRELOAD_WEBPACK_ENTRY: string): void {
     const alarmWindow = new BrowserWindow({
+      backgroundColor: '#1f1f1f',
       width: 332,
       height: 150,
       icon: path.join(__dirname, 'icon.png'),
